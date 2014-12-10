@@ -9,18 +9,18 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/p930/p930.mk)
+$(call inherit-product, device/lge/i_dcm/i_dcm.mk)
 
-PRODUCT_NAME := cm_p930
+PRODUCT_NAME := cm_i_dcm
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := OptimusLTE
 PRODUCT_VERSION_DEVICE_SPECIFIC :=
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := p930
+PRODUCT_DEVICE := i_dcm
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lge_iproj BUILD_FINGERPRINT=lge/lge_iproj/lgp930:4.0.3/IML74K/LG-P930-V18f.1c09112307:user/release-keys PRIVATE_BUILD_DESC="i_atnt-user 4.0.3 IML74K 47c54a96 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=lge_iproj BUILD_FINGERPRINT=LGE/i_dcm/i_dcm:4.0.4/IMM76D/L01D-V20e.1e818742da:user/release-keys PRIVATE_BUILD_DESC="i_dcm-user 4.0.4 IMM76D 4e186480 release-keys"
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch WiFiDirectDemo

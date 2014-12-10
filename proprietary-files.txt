@@ -1,6 +1,6 @@
 lib/hw/sensors.msm8660.so
 etc/firmware/vidc_1080p.fw
-etc/firmware/BCM4330B1_002.001.003.0243.0308.hcd
+bin/BCM4330B14.hcd
 lib/egl/libq3dtools_adreno200.so
 lib/egl/libGLESv2_adreno200.so
 lib/egl/libGLESv1_CM_adreno200.so

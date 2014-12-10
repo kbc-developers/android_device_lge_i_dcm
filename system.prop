@@ -1,5 +1,5 @@
 #
-# system.prop for p930
+# system.prop for i_dcm
 #
 ro.telephony.default_network=9
 telephony.lteOnGsmDevice=1
