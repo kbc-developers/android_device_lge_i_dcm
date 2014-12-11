@@ -4,7 +4,7 @@
 -include device/lge/iprj-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := i_dcm
-TARGET_OTA_ASSERT_DEVICE := i_dcm
+TARGET_OTA_ASSERT_DEVICE := i_dcm,l01d,L01D,p930,vs920,su640
 
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_i_dcm_defconfig
